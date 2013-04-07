@@ -4,7 +4,7 @@ Quickstart
 #. Clone this repository.
 #. Create a copy of *config/example.config.json* named *config/config.json*
 #. Update appropriate fields in composer.json (authors, package, description, etc...")
-#. Run *composer.sh update"
+#. Run *composer.sh update*
 
 composer.sh
 -----------
