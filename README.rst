@@ -13,6 +13,27 @@ A thin wrapper around the Composer dependency manager.  It will automatically do
 
 For more information see: http://getcomposer.com and http://packagist.com
 
+PHP version
+-----------
+
+If you plan to use a PHP version earlier than 5.4, remove the line:
+
+    {
+        "php":">5.4",
+        .
+        .
+    }
+
+and change the use line in **src/app.php** from:
+
+    use SegmentNine\Silex\Application;
+
+to
+
+    use Silex\Application;
+
+The custom base class includes traits, a feature not available prior to 5.4.
+
 Structure
 ---------
 
