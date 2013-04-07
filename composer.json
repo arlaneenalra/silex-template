@@ -1,5 +1,7 @@
 {
     "name": "arlaneenalra/php-bootstrap",
+    "description":"A set of sane default dependencies to create a Silex application.",
+    "license":"MIT",
     "autoload": {
         "psr-0": { "": "src/" }
     },
