@@ -1,5 +1,5 @@
 {
-    "hash": "4bea746052905b9f38b5f9c88f2b80b7",
+    "hash": "898bf136e8c102695c2f6b0e780f672c",
     "packages": [
         {
             "name": "igorw/config-service-provider",
@@ -963,9 +963,9 @@
     "stability-flags": {
         "silex/silex": 20
     },
-    "platform": [
-
-    ],
+    "platform": {
+        "php": ">=5.4"
+    },
     "platform-dev": [
 
     ]

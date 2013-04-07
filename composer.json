@@ -1,9 +1,12 @@
 {
     "name": "arlaneenalra/php-bootstrap",
+    "description":"A set of sane default dependencies to create a Silex application.",
+    "license":"MIT",
     "autoload": {
         "psr-0": { "": "src/" }
     },
     "require": {
+        "php": ">=5.4",
         "silex/silex": "1.0.x@dev",
         "twig/twig": ">=1.8,<2.0-dev",
         "symfony/validator": "~2.2",
