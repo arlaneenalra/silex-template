@@ -1,5 +1,5 @@
 {
-    "name": "seg9/php-bootstrap",
+    "name": "arlaneenalra/php-bootstrap",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -16,7 +16,7 @@
     "authors": [
         {
             "name": "Chris S.",
-            "email": "chris@seg9.com"
+            "email": "emeraldd.chris@gmail.com"
         }
     ]
 }
