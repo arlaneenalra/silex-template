@@ -11,5 +11,9 @@ use Silex\Application as Base;
  */
 class Application extends Base 
 {
+    use Base\TranslationTrait;
     use Base\TwigTrait;
+    use Base\UrlGeneratorTrait;
+    use Base\FormTrait;
+    use Base\SecurityTrait;
 }

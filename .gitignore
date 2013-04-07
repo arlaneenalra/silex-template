@@ -2,4 +2,4 @@
 *.sw?
 .git*
 vendor/*
-
+config/config.*
