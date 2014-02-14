@@ -7,14 +7,14 @@
     },
     "require": {
         "php": ">=5.4",
-        "silex/silex": "1.0.x@dev",
-        "twig/twig": ">=1.8,<2.0-dev",
-        "symfony/validator": "~2.2",
-        "symfony/twig-bridge": "~2.2",
-        "symfony/translation": "~2.2",
-        "symfony/config": "~2.2",
-        "symfony/form": "~2.2",
-        "igorw/config-service-provider":"~1.0"
+        "silex/silex": "~1.1",
+         "symfony/validator": "~2.4.2",
+         "symfony/twig-bridge": "~2.4.2",
+         "symfony/translation": "~2.4.2",
+         "symfony/config": "~2.4.2",
+         "symfony/form": "~2.4.2",
+         "igorw/config-service-provider":"~1.0"
+ 
     },
     "authors": [
         {
