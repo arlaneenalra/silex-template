@@ -26,7 +26,7 @@ If you plan to use a PHP version earlier than 5.4, remove the line:
 
 and change the use line in **src/app.php** from:
 
-    use SegmentNine\\Silex\\Application;
+    use ArlaneEnalra\\Silex\\Application;
 
 to
 

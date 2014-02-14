@@ -4,7 +4,7 @@
 require(__DIR__ . '/../vendor/autoload.php');
 
 //use Silex\Application;
-use SegmentNine\Silex\Application;
+use ArlaneEnalra\Silex\Application;
 use Silex\Provider;
 
 $app = new Application();
