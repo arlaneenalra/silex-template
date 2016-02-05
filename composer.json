@@ -3,19 +3,18 @@
     "description":"A set of sane default dependencies to create a Silex application.",
     "license":"MIT",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-4": { "": "src/" }
     },
     "require": {
         "php": ">=5.4",
         "silex/silex": "~1.3",
-         "symfony/security": "~2.4",
-         "symfony/validator": "~2.4",
-         "symfony/twig-bridge": "~2.4",
-         "symfony/translation": "~2.4",
-         "symfony/config": "~2.4",
-         "symfony/form": "~2.4",
-         "igorw/config-service-provider":"~1.0"
- 
+        "symfony/security": "~3.0",
+        "symfony/validator": "~3.0",
+        "symfony/twig-bridge": "~3.0",
+        "symfony/translation": "~3.0",
+        "symfony/config": "~3.0",
+        "symfony/form": "~3.0",
+        "saxulum/config-service-provider": "~1.2"
     },
     "authors": [
         {
