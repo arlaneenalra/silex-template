@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 INSTALL_DIR=./vendor
 COMPOSER=${INSTALL_DIR}/composer.phar
 
@@ -19,19 +21,29 @@ install_curl() {
     ${CURL} -sS https://getcomposer.org/installer | ${PHP} -- ${OPTS}
 }
 
-# test for the existence of the phar before doing anything
-if [[ ! -x "${COMPOSER}" ]]
-then
-    # try curl
+(
+    cd $DIR
 
-    if [[ -x "${CURL}" ]]
+    if [[ ! -d "${INSTALL_DIR}" ]]
     then
-        install_curl
-    else
-        install_php
+        mkdir ${INSTALL_DIR}
     fi
-fi
 
-# do an update
-${COMPOSER} self-update
-${COMPOSER} $@
+    # test for the existence of the phar before doing anything
+    if [[ ! -x "${COMPOSER}" ]]
+    then
+        # try curl
+
+        if [[ -x "${CURL}" ]]
+        then
+            install_curl
+        else
+            install_php
+        fi
+    fi
+
+    # do an update
+    ${COMPOSER} self-update
+    ${COMPOSER} $@
+)
+
